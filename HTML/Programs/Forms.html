@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <h1>Forms</h1>
+  <form action="http://www.example.com/review.php" method="get">
+    <Fieldset>
+      <legend>Your Details</legend>
+    <p>Username:
+      <label for="username">Username:</label>
+<input type="text" name="username"
+required="required" /></title><br />
+<label for="password">Password:</label>
+<input type="password" name="password"
+required="required" />
+<input type="submit" value="Submit" />
+    </Fieldset>
+    
+    <Fieldset>
+      <legend>Your Music Interests</legend>
+      <p>Your favourite genre of music?
+        <br />
+<input type="radio" name="genre" value="rock"
+checked="checked" /> Rock
+<input type="radio" name="genre" value="pop" />
+Pop
+<input type="radio" name="genre" value="jazz" />
+Jazz
+</p>
+      <p>Please select your favorite music service(s):
+<br />
+<input type="checkbox" name="service"
+value="itunes" checked="checked" /> iTunes
+<input type="checkbox" name="service"
+value="Youtube" /> Youtube
+<input type="checkbox" name="service"
+value="spotify" /> Spotify
+</p>
+      <p>What device do you listen to music on?</p>
+<select name="devices">
+<option value="ipod">iPod</option>
+<option value="radio">Radio</option>
+<option value="Phone">Phone</option>
+</select>
+      </p>
+      <p>Do you play any of the following instruments?
+(You can select more than one option by holding
+down control on a PC or command key on a Mac
+while selecting different options.)</p>
+<select name="instruments" size="3"
+multiple="multiple">
+<option value="guitar" selected="selected">
+Guitar</option>
+<option value="drums">Drums</option>
+<option value="keyboard"
+selected="selected">Keyboard</option>
+<option value="bass">Bass</option>
+</select>
+    </p>
+  <p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song" /><br />
+<input type="submit" value="Upload" />
+  </p>
+</Fieldset>
+<fieldset>
+<legend>Contact details</legend>
+<label>Email:<br />
+<input type="text" name="email" /></label><br />
+<label>Mobile:<br />
+<input type="text" name="mobile" /></label><br />
+<label>Telephone:<br />
+<input type="text" name="telephone" /></label>
+</fieldset>
